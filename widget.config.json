@@ -1,0 +1,21 @@
+{
+  "packageId": "",
+  "spaceId": "",
+  "globalPackageId": "wpksCrkxbvoKu",
+  "entry": "./src/index.tsx",
+  "name": {
+    "zh-CN": "AI Content Creator",
+    "en-US": "AI Content Creator"
+  },
+  "icon": "./package_icon.png",
+  "cover": "./cover.png",
+  "authorName": "APITable",
+  "authorIcon": "./author_icon.png",
+  "authorLink": "https://developers.apitable.com",
+  "authorEmail": "developer@apitable.com",
+  "description": {
+    "zh-CN": "AI Content Creator 的描述",
+    "en-US": "AI Content Creator description"
+  },
+  "website": "https://help.apitable.com/docs/guide/intro-widget-ai-content-creator"
+}
