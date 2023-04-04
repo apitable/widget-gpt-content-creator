@@ -177,7 +177,7 @@ export const Preview: FC<IPreviewPanelProps> = (props) => {
           <IconButton 
             shape='square'
             icon={ChevronRightOutlined} 
-            onClick={() => setActiveIndex(Math.min(activeIndex + 1, records.length))}
+            onClick={() => setActiveIndex(Math.min(activeIndex + 1, records.length - 1))}
           />
         </RecordPagination>
         <Button
