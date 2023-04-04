@@ -12,6 +12,7 @@ export const WelcomeContainerStyled = styled.div`
 export const WelcomeImgStyled = styled.img`
   width: 40px;
   height: 40px;
+  border-radius: 4px;
 `;
 
 export const WelcomeSloganStyled = styled.div`

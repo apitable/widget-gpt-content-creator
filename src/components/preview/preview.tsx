@@ -138,7 +138,8 @@ export const Preview: FC<IPreviewPanelProps> = (props) => {
                       <Button
                         color="primary" 
                         size="small"
-                        style={{ marginTop: 8 }}
+                        variant="jelly"
+                        style={{ marginTop: 8, display: 'block' }}
                         onClick={() => onFillData(message)}
                       >
                         {t(Strings.add_to_cell)}

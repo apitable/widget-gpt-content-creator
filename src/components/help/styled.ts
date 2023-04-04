@@ -34,7 +34,7 @@ export const HelpItemStyled = styled.div`
   padding: 8px 16px;
   height: 52px;
   border-radius: 4px;
-  background-color: var(--bgControlsActive);
+  background-color: var(--bgCommonDefault);
 `;
 
 export const HelpItemContentStyled = styled.div`

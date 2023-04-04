@@ -30,8 +30,6 @@ export const PreviewAvatar = styled.img`
 `;
 
 export const PreviewItem = styled.div`
-  display: flex;
-  flex-direction: column;
   margin-bottom: 24px;
   padding: 16px;
   max-width: calc(100% - 48px);
@@ -40,7 +38,6 @@ export const PreviewItem = styled.div`
 `;
 
 export const GenerationAnnounce = styled.div`
-  padding-top: 8px;
   font-size: 12px;
   text-align: center;
   color: var(--textCommonTertiary);
@@ -62,7 +59,6 @@ export const RecordPagination = styled.div`
 `;
 
 export const PaginationIndex = styled.div`
-  margin: 0 16px;
   padding: 4px 8px;
   font-size: 12px;
   border-radius: 4px;

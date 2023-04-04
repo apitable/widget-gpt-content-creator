@@ -11,6 +11,7 @@ export const Welcome: FC = () => {
     <WelcomeContainerStyled>
       <WelcomeImgStyled 
         src="https://legacy-s1.apitable.com/space/2023/03/31/a963ea47d91c48c3bc4880b66dc9c9cc" 
+        referrerPolicy="no-referrer"
       />
       <WelcomeSloganStyled>
         {t(Strings.ai_content_creator)}

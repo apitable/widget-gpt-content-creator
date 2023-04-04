@@ -8,7 +8,7 @@ export const Main: FC = () => {
   const viewId = activeViewId || viewIds[0];
   const { isFullscreen } = useViewport();
   const [apiKey, setApiKey] = useState(localStorage.getItem('WIDGET_CHAT_API_KEY') || '');
-  const [formData, setFormData, editable] = useCloudStorage('FormData', {
+  const [formData, setFormData, editable] = useCloudStorage('FormData2222', {
     promptFieldId: '',
     resultFieldId: '',
     resultCount: 1,
@@ -23,21 +23,29 @@ export const Main: FC = () => {
 
   return (
     <div style={{ display: 'flex', height: '100%' }}>
-      {
-        !formData.promptFieldId ? 
-          (
-            isFullscreen ?
-              <Help /> :
-              <Welcome />
-          ) :
-          <Preview
-            viewId={viewId}
-            apiKey={apiKey}
-            resultCount={formData.resultCount}
-            promptFieldId={formData.promptFieldId}
-            resultFieldId={formData.resultFieldId}
-          />
-      }
+      <div 
+        style={{
+          width: '100%',
+          height: '100%',
+          background: 'var(--bgCommonLower)'
+        }}
+      >
+        {
+          !formData.promptFieldId ? 
+            (
+              isFullscreen ?
+                <Help /> :
+                <Welcome />
+            ) :
+            <Preview
+              viewId={viewId}
+              apiKey={apiKey}
+              resultCount={formData.resultCount}
+              promptFieldId={formData.promptFieldId}
+              resultFieldId={formData.resultFieldId}
+            />
+        }
+      </div>
       <Setting
         viewId={viewId}
         editable={editable}

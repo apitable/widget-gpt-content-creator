@@ -15,7 +15,7 @@ export const Help: FC = () => {
 
           return (
             <HelpTopicStyled key={index}>
-              <Icon size={20} color={colors.textCommonPrimary} />
+              <Icon size={24} color={colors.textCommonPrimary} />
               <HelpTopicNameStyled>
                 {name}
               </HelpTopicNameStyled>
