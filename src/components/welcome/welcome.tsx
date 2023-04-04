@@ -14,7 +14,7 @@ export const Welcome: FC = () => {
         referrerPolicy="no-referrer"
       />
       <WelcomeSloganStyled>
-        {t(Strings.ai_content_creator)}
+        {t(Strings.gpt_content_creator)}
       </WelcomeSloganStyled>
       <Button 
         color='primary' 

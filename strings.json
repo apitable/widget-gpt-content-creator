@@ -39,9 +39,9 @@
     "zh_CN": "字段已失效，请重新选择",
     "en_US": "The field is invalid, please select again"
   },
-  "ai_content_creator": {
-    "zh_CN": "AI 内容创造器",
-    "en_US": "AI Content Creator"
+  "gpt_content_creator": {
+    "zh_CN": "GPT 内容创造器",
+    "en_US": "GPT Content Creator"
   },
   "lets_chart": {
     "zh_CN": "开始聊天",

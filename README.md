@@ -1,1 +1,1 @@
-# AI Content Creator
+# GPT Content Creator
