@@ -3,12 +3,13 @@ import { FieldType, t } from '@apitable/widget-sdk';
 import { TextInput } from '@apitable/components';
 import { FieldSelect } from '../components';
 import { Strings } from '../utils';
+import Settings from '../../settings.json';
 
 export const getUiSchema = (viewId: string) => ({
   'ui:options': {
     help: {
       text: t(Strings.widget_settings),
-      url: '',
+      url: Settings.setting_help_url,
     },
   },
   apiKey: {
