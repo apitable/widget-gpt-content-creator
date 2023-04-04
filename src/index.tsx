@@ -8,7 +8,7 @@ export const Main: FC = () => {
   const viewId = activeViewId || viewIds[0];
   const { isFullscreen } = useViewport();
   const [apiKey, setApiKey] = useState(localStorage.getItem('WIDGET_CHAT_API_KEY') || '');
-  const [formData, setFormData, editable] = useCloudStorage('FormData2222', {
+  const [formData, setFormData, editable] = useCloudStorage('FormData', {
     promptFieldId: '',
     resultFieldId: '',
     resultCount: 1,
