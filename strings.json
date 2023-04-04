@@ -80,27 +80,27 @@
     "en_US": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable"
   },
   "help_topic_capabilitie_1": {
-    "zh_CN": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable",
-    "en_US": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable"
+    "zh_CN": "Quickly generate tweets for Twitter",
+    "en_US": "Quickly generate tweets for Twitter"
   },
   "help_topic_capabilitie_2": {
-    "zh_CN": "Quickly generate tweets that can be sent to different media using the \"ChatGPT Widget\" in APITable",
-    "en_US": "Quickly generate tweets that can be sent to different media using the \"ChatGPT Widget\" in APITable"
+    "zh_CN": "Quickly optimize blog content for social media",
+    "en_US": "Quickly optimize blog content for social media"
   },
   "help_topic_capabilitie_3": {
-    "zh_CN": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable",
-    "en_US": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable"
+    "zh_CN": "Work with automation to quickly generate and send tweets",
+    "en_US": "Work with automation to quickly generate and send tweets"
   },
   "help_topic_prerequisite_1": {
     "zh_CN": "You must have an OpenAI account and API key",
     "en_US": "You must have an OpenAI account and API key"
   },
   "help_topic_prerequisite_2": {
-    "zh_CN": "Then you will need to set up a prompt field for ChatGPT and configure the columns",
-    "en_US": "Then you will need to set up a prompt field for ChatGPT and configure the columns"
+    "zh_CN": "Need a field to be read as prompt",
+    "en_US": "Need a field to be read as prompt"
   },
   "help_topic_prerequisite_3": {
-    "zh_CN": "At last you need to set a field to save the results",
-    "en_US": "At last you need to set a field to save the results"
+    "zh_CN": "Need a field to hold the generated results",
+    "en_US": "Need a field to hold the generated results"
   }
 }
