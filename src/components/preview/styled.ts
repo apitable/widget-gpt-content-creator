@@ -36,6 +36,7 @@ export const PreviewItem = styled.div`
   padding: 16px;
   max-width: calc(100% - 48px);
   border-radius: 2px 8px 8px 8px;
+  word-wrap: break-word;
 `;
 
 export const GenerationAnnounce = styled.div`
