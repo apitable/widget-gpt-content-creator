@@ -9,7 +9,8 @@ export const PreviewContainer = styled.div`
   width: 100%;
   height: calc(100% - 72px);
   padding: 24px 0;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 `;
 
 export const PreviewContent = styled.div`
