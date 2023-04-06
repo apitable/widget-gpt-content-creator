@@ -94,7 +94,8 @@ export const Preview: FC<IPreviewPanelProps> = (props) => {
     if (!setRecordCheckResult?.acceptable) {
       return Message.error({ content: setRecordCheckResult?.message || t(Strings.default_permission_check_tips) });
     }
-    await datasheet?.setRecord(recordId, valuesMap)
+    await datasheet?.setRecord(recordId, valuesMap);
+    Message.success({ content: t(Strings.success_to_add_data) });
   }
 
   return (

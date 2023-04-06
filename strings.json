@@ -67,6 +67,10 @@
     "zh_CN": "请求失败",
     "en_US": "Request failed"
   },
+  "success_to_add_data": {
+    "zh_CN": "添加数据成功",
+    "en_US": "Success to add data"
+  },
   "help_topic_example_1": {
     "zh_CN": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable",
     "en_US": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable"
