@@ -46,9 +46,10 @@ export const Preview: FC<IPreviewPanelProps> = (props) => {
   const { name, avatar } = user;
 
   useEffect(() => {
-    const index = records.findIndex(record => record.id === previewRecord.id) || 0;
+    if (activeRecord == null) return;
+    const index = records.findIndex(record => record.id === activeRecord.id) || 0;
     setActiveIndex(index);
-  }, [previewRecord])
+  }, [activeRecord])
 
   useEffect(() => {
     if (field == null) return; 
