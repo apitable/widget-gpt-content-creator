@@ -62,4 +62,5 @@ export const PaginationIndex = styled.div`
   padding: 4px 8px;
   font-size: 12px;
   border-radius: 4px;
+  white-space: nowrap;
 `;
