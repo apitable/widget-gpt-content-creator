@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { HELP_TOPIC_MAP } from './config';
 import { useThemeColors } from '@apitable/components';
-import { HelpContainerStyled, HelpItemContentStyled, HelpItemStyled, HelpTopicNameStyled, HelpTopicStyled } from './styled';
+import { HelpContainerStyled, HelpItemContentStyled, HelpItemLinkContentStyled, HelpItemStyled, HelpTopicNameStyled, HelpTopicStyled, HelpTopicWrapperStyled } from './styled';
 
 export const Help: FC = () => {
   const colors = useThemeColors();
@@ -14,23 +14,29 @@ export const Help: FC = () => {
           const Icon = topic.icon;
 
           return (
-            <HelpTopicStyled key={index}>
-              <Icon size={24} color={colors.textCommonPrimary} />
-              <HelpTopicNameStyled>
-                {name}
-              </HelpTopicNameStyled>
-              {
-                list.map((item, index) => {
-                  return (
-                    <HelpItemStyled key={index}>
-                      <HelpItemContentStyled>
-                        {item.text}
-                      </HelpItemContentStyled>
-                    </HelpItemStyled>
-                  );
-                })
-              }
-            </HelpTopicStyled>
+            <HelpTopicWrapperStyled key={index}>
+              <HelpTopicStyled>
+                <Icon size={24} color={colors.textCommonPrimary} />
+                <HelpTopicNameStyled>
+                  {name}
+                </HelpTopicNameStyled>
+                {
+                  list.map((item, index) => {
+                    const ContentStyled = item?.url ? HelpItemLinkContentStyled : HelpItemContentStyled;
+                    return (
+                      <HelpItemStyled key={index}>
+                        <ContentStyled 
+                          href={item?.url} 
+                          target='_blank'
+                        >
+                          {item.text}
+                        </ContentStyled>
+                      </HelpItemStyled>
+                    );
+                  })
+                }
+              </HelpTopicStyled>
+            </HelpTopicWrapperStyled>
           )
         })
       }

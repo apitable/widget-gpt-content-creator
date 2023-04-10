@@ -1,6 +1,7 @@
 import { Strings } from '../../utils';
 import { t } from '@apitable/widget-sdk';
 import { BulbOutlined, ManageApplicationOutlined, InfoCircleOutlined } from '@apitable/icons';
+import Settings from '../../../settings.json';
 
 export const HELP_TOPIC_MAP = [
   {
@@ -9,15 +10,15 @@ export const HELP_TOPIC_MAP = [
     list: [
       {
         text: t(Strings.help_topic_example_1),
-        url: '#'
+        url: Settings.welcome_email_url
       },
       {
         text: t(Strings.help_topic_example_2),
-        url: '#'
+        url: Settings.blog_post_url
       },
       {
         text: t(Strings.help_topic_example_3),
-        url: '#'
+        url: Settings.product_announcement_url
       },
     ]
   },
@@ -27,15 +28,12 @@ export const HELP_TOPIC_MAP = [
     list: [
       {
         text: t(Strings.help_topic_capabilitie_1),
-        url: '#'
       },
       {
         text: t(Strings.help_topic_capabilitie_2),
-        url: '#'
       },
       {
         text: t(Strings.help_topic_capabilitie_3),
-        url: '#'
       },
     ]
   },
@@ -45,15 +43,12 @@ export const HELP_TOPIC_MAP = [
     list: [
       {
         text: t(Strings.help_topic_prerequisite_1),
-        url: '#'
       },
       {
         text: t(Strings.help_topic_prerequisite_2),
-        url: '#'
       },
       {
         text: t(Strings.help_topic_prerequisite_3),
-        url: '#'
       },
     ]
   },

@@ -11,15 +11,20 @@ export const HelpContainerStyled = styled.div`
   overflow: auto;
 `;
 
-export const HelpTopicStyled = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+export const HelpTopicWrapperStyled = styled.div`
   max-width: 200px;
+  flex-basis: 33.33%;
 
   &:nth-child(n + 2) {
     margin-left: 40px;
   }
+`;
+
+export const HelpTopicStyled = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const HelpTopicNameStyled = styled.div`
@@ -30,6 +35,7 @@ export const HelpTopicNameStyled = styled.div`
 `;
 
 export const HelpItemStyled = styled.div`
+  width: 100%;
   margin-top: 16px;
   padding: 8px 16px;
   height: 52px;
@@ -46,4 +52,8 @@ export const HelpItemContentStyled = styled.div`
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+`;
+
+export const HelpItemLinkContentStyled = styled(HelpItemContentStyled).attrs(() => ({ as: 'a' }))`
+  color: var(--textCommonPrimary);
 `;

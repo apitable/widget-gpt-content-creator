@@ -72,16 +72,16 @@
     "en_US": "Success to add data"
   },
   "help_topic_example_1": {
-    "zh_CN": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable",
-    "en_US": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable"
+    "zh_CN": "Welcome Email",
+    "en_US": "Welcome Email"
   },
   "help_topic_example_2": {
-    "zh_CN": "Quickly generate tweets that can be sent to different media using the \"ChatGPT Widget\" in APITable",
-    "en_US": "Quickly generate tweets that can be sent to different media using the \"ChatGPT Widget\" in APITable"
+    "zh_CN": "Blog Posts",
+    "en_US": "Blog Posts"
   },
   "help_topic_example_3": {
-    "zh_CN": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable",
-    "en_US": "Quickly distribute your blog articles to different media using the \"ChatGPT Widget\" in APITable"
+    "zh_CN": "Product Announcement",
+    "en_US": "Product Announcement"
   },
   "help_topic_capabilitie_1": {
     "zh_CN": "Quickly generate tweets for Twitter",
