@@ -26,6 +26,7 @@ import {
   ColumnSingleNonzeroFilled, 
   ColumnFormulaFilled,
   ColumnCheckboxFilled,
+  CascadeOutlined
 } from '@apitable/icons';
 import styled from 'styled-components';
 import { Strings } from '../../utils';
@@ -54,6 +55,7 @@ const FieldIconMap = {
   [FieldType.LastModifiedTime]: ColumnLastmodifiedtimeFilled,
   [FieldType.CreatedBy]: ColumnCreatedbyFilled,
   [FieldType.LastModifiedBy]: ColumnLastmodifiedbyFilled,
+  [FieldType.Cascader]: CascadeOutlined
 };
 
 const ErrorText = styled.div.attrs(applyDefaultTheme)`
@@ -78,14 +80,13 @@ const transformOptions = (enumOptions: { label: string, value: any }[], theme: I
     return {
       ...res,
       disabled: !availableFieldTypes.includes(field.type),
-      prefixIcon: <FieldIcon color={theme.palette.text.third} />,
+      prefixIcon: FieldIcon ? <FieldIcon color={theme.palette.text.third} /> : null,
     };
   }).filter(Boolean) as IOption[];
 };
 
 export const FieldSelect = (props: WidgetProps) => {
-  const { viewId, options: { enumOptions }, value: fieldId, onChange, rawErrors, availableFieldTypes } = props;
-  console.log('fieldId', fieldId);
+  const { viewId, options: { enumOptions }, value: fieldId, onChange, availableFieldTypes } = props;
   const theme = useTheme();
   const fields = useFields(viewId);
   const field = useField(fieldId);
