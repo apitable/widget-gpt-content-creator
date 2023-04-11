@@ -72,39 +72,39 @@
     "en_US": "Success to add data"
   },
   "help_topic_example_1": {
-    "zh_CN": "Welcome Email",
+    "zh_CN": "欢迎邮件",
     "en_US": "Welcome Email"
   },
   "help_topic_example_2": {
-    "zh_CN": "Blog Posts",
+    "zh_CN": "博客文章",
     "en_US": "Blog Posts"
   },
   "help_topic_example_3": {
-    "zh_CN": "Product Announcement",
+    "zh_CN": "产品公告",
     "en_US": "Product Announcement"
   },
   "help_topic_capabilitie_1": {
-    "zh_CN": "Quickly generate tweets for Twitter",
+    "zh_CN": "快速生成推特的推文",
     "en_US": "Quickly generate tweets for Twitter"
   },
   "help_topic_capabilitie_2": {
-    "zh_CN": "Quickly optimize blog content for social media",
+    "zh_CN": "博客内容优化，以适应在社交媒体上进行传播",
     "en_US": "Quickly optimize blog content for social media"
   },
   "help_topic_capabilitie_3": {
-    "zh_CN": "Work with automation to quickly generate and send tweets",
+    "zh_CN": "利用自动化工具快速生成和发送推特推文",
     "en_US": "Work with automation to quickly generate and send tweets"
   },
   "help_topic_prerequisite_1": {
-    "zh_CN": "You must have an OpenAI account and API key",
+    "zh_CN": "你必须拥有 OpenAI 账户和 API 密钥",
     "en_US": "You must have an OpenAI account and API key"
   },
   "help_topic_prerequisite_2": {
-    "zh_CN": "Need a field to be read as prompt",
+    "zh_CN": "需要一个字段作为提示信息被 AI 读取",
     "en_US": "Need a field to be read as prompt"
   },
   "help_topic_prerequisite_3": {
-    "zh_CN": "Need a field to hold the generated results",
+    "zh_CN": "需要一个字段来存放 AI 生成的结果",
     "en_US": "Need a field to hold the generated results"
   }
 }
