@@ -9,13 +9,13 @@
   },
   "icon": "./package_icon.png",
   "cover": "./cover.png",
-  "authorName": "APITable",
+  "authorName": "AITable",
   "authorIcon": "./author_icon.png",
-  "authorLink": "https://developers.apitable.com",
-  "authorEmail": "developer@apitable.com",
+  "authorLink": "https://developers.aitable.ai",
+  "authorEmail": "developer@aitable.ai",
   "description": {
     "zh-CN": "使用结构化字段作为内容的提示词，与 GPT-3.5-turbo 模型对话，快速进行内容创作",
     "en-US": "Talk to GPT-3.5-turbo models for fast content creation using structured fields as prompt words for content"
   },
-  "website": "https://help.apitable.com/docs/guide/intro-widget-gpt-content-creator"
+  "website": "https://help.aitable.ai/docs/guide/intro-widget-gpt-content-creator"
 }
