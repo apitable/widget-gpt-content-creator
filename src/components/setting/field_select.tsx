@@ -1,62 +1,10 @@
 import React from 'react';
 import { WidgetProps } from '@rjsf/core';
 import { applyDefaultTheme, ITheme, Select, IOption, useTheme } from '@apitable/components';
-import { FieldType, Field, useFields, useField, t } from '@apitable/widget-sdk';
-import {
-  ColumnAttachmentFilled,
-  ColumnAutonumberFilled,
-  AccountFilled,
-  ColumnLastmodifiedtimeFilled,
-  ColumnTextFilled,
-  ColumnCreatedbyFilled,
-  ColumnCreatedtimeFilled,
-  ColumnCurrencyFilled,
-  ColumnPercentFilled,
-  ColumnFigureFilled,
-  ColumnMultipleFilled,
-  ColumnCalendarNonzeroFilled,
-  ColumnLinktableFilled,
-  ColumnUrlOutlined,
-  ColumnRatingFilled,
-  ColumnEmailNonzeroFilled,
-  ColumnLastmodifiedbyFilled,
-  ColumnLongtextFilled,
-  ColumnPhoneFilled,
-  ColumnLookupNonzeroFilled,
-  ColumnSingleNonzeroFilled, 
-  ColumnFormulaFilled,
-  ColumnCheckboxFilled,
-  CascadeOutlined
-} from '@apitable/icons';
+import {FieldType, Field, useFields, useField, t, FieldIconMap} from '@apitable/widget-sdk';
 import styled from 'styled-components';
 import { Strings } from '../../utils';
 
-const FieldIconMap = {
-  [FieldType.Text]: ColumnLongtextFilled,
-  [FieldType.Number]: ColumnFigureFilled,
-  [FieldType.SingleSelect]: ColumnSingleNonzeroFilled,
-  [FieldType.MultiSelect]: ColumnMultipleFilled,
-  [FieldType.DateTime]: ColumnCalendarNonzeroFilled,
-  [FieldType.Attachment]: ColumnAttachmentFilled,
-  [FieldType.MagicLink]: ColumnLinktableFilled,
-  [FieldType.URL]: ColumnUrlOutlined,
-  [FieldType.Email]: ColumnEmailNonzeroFilled,
-  [FieldType.Phone]: ColumnPhoneFilled,
-  [FieldType.Checkbox]: ColumnCheckboxFilled,
-  [FieldType.Rating]: ColumnRatingFilled,
-  [FieldType.Member]: AccountFilled,
-  [FieldType.MagicLookUp]: ColumnLookupNonzeroFilled,
-  [FieldType.Formula]: ColumnFormulaFilled,
-  [FieldType.Currency]: ColumnCurrencyFilled,
-  [FieldType.Percent]: ColumnPercentFilled,
-  [FieldType.SingleText]: ColumnTextFilled,
-  [FieldType.AutoNumber]: ColumnAutonumberFilled,
-  [FieldType.CreatedTime]: ColumnCreatedtimeFilled,
-  [FieldType.LastModifiedTime]: ColumnLastmodifiedtimeFilled,
-  [FieldType.CreatedBy]: ColumnCreatedbyFilled,
-  [FieldType.LastModifiedBy]: ColumnLastmodifiedbyFilled,
-  [FieldType.Cascader]: CascadeOutlined
-};
 
 const ErrorText = styled.div.attrs(applyDefaultTheme)`
   font-size: 10px;
